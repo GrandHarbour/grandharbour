@@ -1,0 +1,849 @@
+@charset "utf-8";
+/*英文字形載入*/
+@import url(https://fonts.googleapis.com/css?family=Play|Cinzel|Quattrocento+Sans|Open+Sans|Raleway|Josefin+Sans|Maven+Pro|Questrial|Orbitron);
+/*使用
+font-family: 'Play', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+/*以下是復位動作-參考YAHOO*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td { 
+padding: 0;
+margin: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+img { 
+border: 0;
+}
+em,th {
+font-weight: normal;
+font-style: normal;
+}
+ol,ul {
+list-style: none;
+}
+caption,th {
+text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;
+font-size: 100%;
+}
+/*-------------------------------------------------------*/
+
+h1{
+	font-family:Microsoft JhengHei;
+	color:#000;
+	font-size:50px;
+	letter-spacing:2px;
+	}
+
+h2{
+	font-family:Microsoft JhengHei;
+	color:#000;
+	font-size:25px;
+	margin-top: 10px;
+	letter-spacing:2px;
+	}
+
+h3{
+	font-family:Microsoft JhengHei;
+	color:#fff;
+	font-size:50px;
+	letter-spacing:2px;
+	}
+
+h4{
+	font-family:Microsoft JhengHei;
+	color:#fff;
+	font-size:30px;
+	letter-spacing:2px;
+	}
+
+h5{
+	color:#fff;
+	font-size:40px;
+	font-family:'Cinzel', serif;
+	letter-spacing:2px;
+	}
+
+h6{
+	color:#fff;
+	font-size:20px;
+	font-family:Microsoft JhengHei;
+	letter-spacing:2px;
+	}
+
+
+.topbg {
+	max-width:1440px;
+	height:750px;
+	background: #000 center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+	position:relative;
+	}
+	
+.menubg{
+	
+	width:100%;
+	height:70px;
+	position:absolute;
+	bottom:0px;
+	z-index:10000;
+	}
+
+
+.menu{
+	color:#fff;
+	width:70%;
+	height:40px;
+	margin:15px auto;
+	text-align:center;
+	}
+	
+.menubg-up{
+	background:rgba(0%,0%,0%,0.5);
+	}
+	
+.menubg-down{
+	width:100%;
+	height:45px;
+	position:absolute;
+	bottom:0px;
+	z-index:10000;
+	background:#000;
+	}
+
+.menu-up{
+	background:rgba(20,80,152,0.7);
+	}
+	
+.menu-down{
+	margin:0 auto;
+	text-align:center;
+	background:#000;
+	}
+
+
+.menu ul{
+	/*border:1px #000 solid;*/
+	margin: 0; 
+	padding: 0;
+	display:inline-block;
+	width:90%;
+	}
+	
+.menu ul li {
+	/*border:1px #fff solid; */
+	float:left;
+	border-bottom: none; 
+	height:20px; 
+	line-height:18px; 
+    font-family:Microsoft JhengHei;
+	font-weight:bold;
+	padding:10px 0px;
+	width:20%;
+	}
+
+.menu ul li a {
+	color:#fff; 
+	text-decoration:none;
+	}
+
+.menu ul li a:hover {
+	color:#dbdbdb; 
+	text-decoration:none;
+	}
+
+
+#top-bar{position:fixed; top:0px;}
+
+
+.container{
+	width:100%;
+	padding-top:90px;
+	}
+	
+.slogan{
+	width:45%;
+	margin:auto;
+	text-align:center;
+	}
+	
+.slogan div{
+	font-family:Microsoft JhengHei;
+	color:#000;
+	font-size:16px;
+	text-align:left;
+	margin-top:20px;
+	line-height:30px;
+	}
+	
+	
+
+
+	
+/*-首頁-------------------------------------------------*/
+
+.indextopbg{
+	background-image:url(images/indeximg.jpg);
+	}
+
+
+.ourcraft{
+	padding-top:150px;
+	width:100%;
+	text-align:center;
+	}
+	
+.ourcraft-img{
+	margin-top:90px;
+	background: #000 url(images/ourcraft.jpg) center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:813px;
+	/*position:relative;*/
+	}
+	
+.ourcraft-text{
+/*	position:absolute;
+	top:240%;
+	right:5%;*/
+	width:25%;
+	padding:31% 1% 1% 70%;
+	
+	}
+
+.shortintro{
+	font-family:Microsoft JhengHei;
+	color:#fff;
+	font-size:16px;
+	text-align:left;
+	margin-top:20px;
+	line-height:30px;
+	}
+	
+
+.knowmore{
+	width:200px;
+	margin:0 auto;
+	
+	}
+.knowmore button {
+	
+	background:rgba(11,29,47,0.7);
+	border:1px #b1d8ff solid;
+	width:200px;
+	height:80px;
+	font-family:Microsoft JhengHei;
+	color:#fff;
+	font-size:30px;
+	text-decoration:underline;
+	font-weight:lighter;
+	padding:25px 5px;
+	line-height:20px;
+	cursor:pointer;
+	}
+
+.three{
+	width:95%;
+	height:240px;
+	margin:150px auto;
+	
+	}
+
+.three div{
+	width:32%;
+	height:240px;
+	float:left;
+	margin:0 4px;
+	}
+
+.three div div{
+	width:99%;
+	height:60%;
+	text-align:center;
+	margin:50px 0px;
+	}
+	
+.fb{
+	background-color:#145098;
+	}
+
+.yachtline{
+	background-color:#a02d64;
+	}
+
+.download{
+	background-color:#e4ae16;
+	}
+
+.getmore{
+	width:95%;
+	text-align:center;
+	margin:0 auto;
+	}
+
+.skill{
+	height:458px;
+	margin-top:90px;
+	background: #000 url(images/skill.jpg) center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+	position:relative;
+	}
+
+.skill .shortintro{
+	width: 50%;
+	margin: 0 auto;
+	padding-top:3%;
+	}
+
+.skill h3{
+	padding-top:5%;
+	}
+	
+.skill .knowmore{
+	padding-top:3%;
+	}
+
+
+
+.alpha{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	float:left;
+	}
+
+
+	
+
+
+.report{
+	height:400px;
+	width:49.8%;
+	margin-top:4px;
+	background: #000 url(images/report.jpg) center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+	float:left;
+	margin-right:2px;
+	position:relative;
+	}
+
+.report h3{
+	padding-top:15%;
+	}
+
+.report .knowmore{
+	padding-top:5%;
+	}
+
+.history{
+	height:400px;
+	width:49.8%;
+	margin-top:4px;
+	background: #000 url(images/history.jpg) center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+	float:left;
+	margin-left:2px;
+	position:relative;
+	}
+	
+.history h3{
+	padding-top:15%;
+	}
+
+.history .knowmore{
+	padding-top:5%;
+	}
+	
+.getmore-container{
+	position: absolute;
+	float:right; 
+	top:0px; 
+	left:0px; 
+	width:100%; 
+	height:100%;
+	}
+
+/*-公司介紹------------------------------------------------*/
+
+.companytopbg{
+	background-image:url(images/company.jpg);
+	}
+
+.twophoto{
+	width:95%;
+	height:400px;
+	margin:150px auto;
+	}
+
+.leftphoto{
+	width:49.8%;
+	height:100%;
+	background: #000 url(images/company_photo1.jpg) center center no-repeat;
+    -moz-background-size: cover;
+	background-size: cover;
+	float:left;
+	margin-right:2px;
+	position:relative;
+	}
+	
+.rightphoto{
+	width:49.8%;
+	height:100%;
+	background: #000 url(images/company_photo2.jpg) center center no-repeat;
+    -moz-background-size: cover;
+	background-size: cover;
+	float:left;
+	margin-left:2px;
+	position:relative;
+	}
+
+.company-skill{
+	height:600px;
+	margin-top:90px;
+	background: #000 url(images/company_work.jpg) center center no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+	position:relative;
+	}
+
+.skill-intro{
+	font-family:Microsoft JhengHei;
+	color:#000;
+	font-size:16px;
+	text-align:left;
+	padding-top:20px;
+	line-height:30px;
+	width:48%;
+	margin:auto;
+	}
+	
+
+/*---產品列表--------------------------------------------------*/
+
+.crafttopbg{
+	background-image:url(images/craft.jpg);	
+	}
+	
+.craft-list{
+	width:90%;
+	height:350px;
+	margin:0 auto;
+	padding-top:90px;
+	}
+	
+
+
+.alpha2{
+	background:rgba(0,0,0,0);
+	position:relative;
+	width:100%;
+	height:100%;
+	}
+
+.craft-list-intro{
+	width:90%;
+	height:100%;
+	padding-left:20px;
+	padding-top:10px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+
+.craft-list-intro h4{display:none;}
+
+
+.craft-list .left{
+	float:left;
+	width:49.8%;
+	height:100%;
+	margin-top:4px;
+	background-color:#000;
+	cursor:pointer;
+	position:relative;
+	}
+	
+.craft-list .right{
+	float:right;
+	width:49.8%;
+	height:100%;
+	margin-top:4px;
+	background-color:#000;
+	cursor:pointer;
+	position:relative;
+	}
+	
+.craft-list-btn{
+	width:400px;
+	margin:0 auto;
+	
+	}
+.craft-list-btn button {
+	
+	background:rgba(11,29,47,0.7);
+	border:1px #b1d8ff solid;
+	width:400px;
+	height:80px;
+	font-family:Microsoft JhengHei;
+	color:#fff;
+	font-size:30px;
+	font-weight:lighter;
+	padding:25px 5px;
+	line-height:20px;
+	cursor:pointer;
+	}
+#craft46{
+	background-image:url(images/craft46.jpg);
+	}
+
+#craft48{
+	background-image:url(images/craft48.jpg);	
+	}
+
+#craft50{
+	background-image:url(images/craft50.jpg);	
+	}
+	
+#craft52p{
+	background-image:url(images/craft52p.jpg);	
+	}
+
+#craft52{
+	background-image:url(images/craft52.jpg);	
+	}
+
+#craft53{
+	background-image:url(images/craft53.jpg);	
+	}
+
+#craft57{
+	background-image:url(images/craft57.jpg);	
+	}
+
+#craft58{
+	background-image:url(images/craft58.jpg);	
+	}
+	
+#craft62{
+	background-image:url(images/craft62.jpg);	
+	}
+
+#craft67{
+	background-image:url(images/craft67.jpg);	
+	}
+
+#craft68{
+	background-image:url(images/craft68.jpg);	
+	}
+
+
+#craft70{
+	background-image:url(images/craft70.jpg);	
+	}
+	
+#craft72{
+	background-image:url(images/craft72.jpg);	
+	}
+	
+#craft76{
+	background-image:url(images/craft76.jpg);	
+	}
+
+
+	
+
+/*產品介紹頁---------------------------------------------*/
+
+.craft-photos {
+	margin:50px auto 150px;
+	width: 1000px;
+	height: 600px;
+	background: #ccc;
+	position: relative;
+	overflow: hidden;
+	
+}
+.craft-photos * {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.craft-photos ul, .craft-photos li {
+	list-style: none;
+}
+.craft-photos ul {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 9999;
+}
+.craft-photos li {
+	float: left;
+	margin-left: 5px;
+}
+.craft-photos li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+}
+.craft-photos li a:hover {
+	border: 1px solid #f9f;
+}
+.craft-photos li a img {
+	border: none;
+}
+
+.craft-info{
+	width:90%;
+	margin:0 auto;
+	}
+
+
+.craft-spec{
+	margin-top:50px;
+	margin-bottom:150px;
+	}
+	
+
+.craft-spec ul{
+	/*border:1px #000 solid;*/
+	margin: 0; 
+	padding: 0;
+	display:inline-block;
+	width:98%;
+	border-bottom:1px solid #aaa;
+	}
+	
+.craft-spec ul li {
+	/*border:1px #fff solid; */
+	float:left;
+	border-bottom: none; 
+	height:25px; 
+	line-height:18px; 
+    font-family:Microsoft JhengHei;
+	font-weight:bold;
+	padding:10px 0px;
+	width:50%
+	}
+	
+.craft-spec-left{
+	width:49.8%;
+	float:left;
+	}
+	
+.craft-spec-right{
+	width:49.8%;
+	float:right;
+	}
+
+.craft46topbg{
+	background-image:url(images/craft46top.jpg);	
+	}
+	
+.enquiry{
+	margin:0 auto;
+	background-color:#145098;
+	width:90%;
+	margin-bottom:150px;
+	line-height:80px;
+	text-align:center;
+	}
+
+.craft-drawing{
+	border-bottom:1px #999 solid;
+	height:35px;
+	display:inline-block;
+	width:100%;
+	}
+	
+.craft-drawing li{
+	background:#a02d64;
+	color:#FFF;
+	font-size:18px;
+	font-family:Microsoft JhengHei;
+	letter-spacing:2px;
+	cursor:pointer;
+	width:15%;
+	height:35px;
+	float:left;
+	line-height:35px;
+	text-align:center;
+	margin:0px 5%;
+	}
+
+
+.drawing-div{
+	margin:0 auto;
+	width:1024px;
+	}
+	
+/*最新消息--------------------------------------------*/
+
+.newstopbg{
+	background-image:url(images/news.jpg);
+	}
+
+.news1{
+	padding-top:150px;
+	width:90%;
+	text-align:center;
+	margin:0px auto 150px;
+	}
+	
+.news1-img{
+	margin-top:90px;
+	background: #000;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:650px;
+	position:relative;
+	}
+
+.news1-img .newsbig{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:650px;
+	}
+
+
+.news1-alpha{
+	background:rgba(0%,0%,0%,0.6);
+	height:100%;
+	width:300px;
+	position:absolute;
+	text-align:center;
+	left:0;
+	top:0;
+	padding:0px 20px;
+	}
+	
+.news1-text{
+	margin-top:180px;
+	}
+
+
+.news1-photos ul, .news1-photos li {
+	list-style: none;
+}
+.news1-photos ul {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 9999;
+}
+.news1-photos li {
+	float: left;
+	margin-left: 5px;
+}
+.news1-photos li  {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+}
+.news1-photos li:hover {
+	border: 1px solid #f9f;
+}
+.news1-photos li img {
+	border: none;
+}
+
+/*聯絡我們---------------------------------------------*/
+
+.contacttopbg{
+	background-image:url(images/contact.jpg);
+	}
+
+.contactform{
+	width:90%;
+	background:rgb(11,29,47);
+	margin:90px auto;
+	}
+
+.contactform .left{
+	width:47%;
+	float:left;
+	margin:20px 10px 20px 20px;
+	text-align:right;
+	}
+
+.contactform .right{
+	width:47%;
+	float:right;
+	margin:20px 20px 20px 10px;
+	text-align:left;
+	}
+
+.contactform input {
+	width:90%;
+	height:30px;
+	margin:20px;
+	}
+
+.contactform textarea{
+	width:90%;
+	height:255px;
+	margin:20px;
+	}
+
+.location{
+	margin:150px auto;
+	width:90%;
+	height:600px;
+	text-align:center;
+	
+	}
+
+.location div{
+	margin-top:30px;
+	}
+
+/*---------------------------------------------------------*/
+
+
+.bottom{
+	width:100%;
+	background:#dbdbdb;
+	margin-top:150px;
+	height:300px;
+	text-align:center;
+	}
+
+.contact{
+	color:#0c4988;
+	height:50px;
+	border-bottom:#fff 1px solid;
+	font-size:20px;
+	font-family:Microsoft JhengHei;
+	padding-top:20px;
+	letter-spacing:1px;
+	margin-bottom:20px;
+	}
+
+.bottomlogo{
+	margin-top:20px;
+	font-size:12px;
+	color:#0c4988;
+	font-family:Microsoft JhengHei;
+	}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
