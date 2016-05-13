@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel=stylesheet type="text/css" href="css.css">
+<title>隆洋遊艇</title>
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type='text/javascript'>
+$(function(){
+	　$(window).load(function(){
+			$(window).bind('scroll resize', function(){
+					var $this = $(this);
+　　					var $this_Top=$this.scrollTop();	
+					if($this_Top > 750){　　$('#top-bar').fadeIn(200)}	
+					if($this_Top < 750){　　$('#top-bar').hide()}
+		    });				 
+	 })  
+});
+
+
+$( "#alpha" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
+</head>
+
+<body>
+<div class="topbg companytopbg">
+	<div class="menubg menubg-up">
+    	<div class="menu menu-up">
+        	<ul>
+            	<li><a href="index.html">隆洋遊艇</a></li>
+                <li><a href="company.html">公司介紹</a></li>
+                <li><a href="craftindex.html">產品介紹</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="contactus.html">聯絡我們</a></li>
+            </ul>
+        
+        </div>
+    </div>
+</div>
+<div id="top-bar" class="menubg menubg-down" style="display:none; ">
+    	<div class="menu menu-down">
+        	<ul>
+            	<li><a href="index.html">隆洋遊艇</a></li>
+                <li><a href="company.html">公司介紹</a></li>
+                <li><a href="craftindex.html">產品介紹</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="contactus.html">聯絡我們</a></li>
+            </ul>
+        
+        </div>
+    </div>
+<div class="container">
+    <div class="slogan">
+        <h1>隆洋遊艇</h1>
+        <h2>GRAND HARBOUR YACHTS INC.</h2>
+        <div>回首30年前，隆洋遊艇董事長龔炳煌先生，台灣造船業廣為人知的遊艇製造開創先鋒，於1985年創立隆洋遊艇工業股份有限公司。挾著多年的造船經驗，龔炳煌先生帶領隆洋遊艇持續建設高品質的動力遊艇和帆船。<br/><br/>
+
+我們並不竭盡所能在大量製造，而是透過一連串緊湊的操作，專注我們的技能在每艘船上，集中火力在達到每艘船的最高標準。
+		</div>
+	</div>
+	
+   <div class="twophoto">
+    	<div class="leftphoto"> 
+        	<div class="alpha"></div>
+            <div class="getmore-container">
+            <div class="knowmore"><button> 68'</button></div>
+            </div>
+        </div>
+        <di class="rightphoto"> 
+        	<div class="alpha"></div>
+            <div class="getmore-container">
+            <div class="knowmore"><button> 53'</button></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="getmore">
+        <h1>工藝技術</h1>
+        <h2>致力於達成顧客夢想</h2>
+        <div class="skill-intro">
+        在遊艇設計的過程中，隆洋工程團隊將融入客戶的想法，所有的室內裝潢與布局，在基本設計的範圍內，都可按照您的願望塑造。<br/><br/>
+        客製化遊艇意味著更多船體的拉伸與切割，我們運用AUTO-CAD軟體運行，準確的計算所有的改變，讓遊艇設計更具有彈性，配合我們高技能且訓練有素的工匠，
+        竭盡所能的為您打造專屬您的遊艇。
+        當然，在室內裝潢的木材和布料方面，我們也提供了多樣現成的選擇，以達成未來主人的理想。
+        <br/><br/>
+		我們的理念一直沒有改變，隆洋遊艇，只建造一流的遊艇。
+		</div>
+        <div class="company-skill" ></div>
+        
+        
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="bottom">
+	<div class="contact">
+    	直接聯繫我們，請致電+886-7-8715107，或傳送E-Mail至yxp@ms14.hitnet.net
+    </div>
+    <div class="bottomlogo">
+    	<img src="images/bottomlogo.png"/>
+        <br/><br/><br/>
+        © Grand Harbour Yacht Inc.
+    </div>
+
+
+</div>
+
+</body>
+<script>
+$( "div.getmore-container" ).hover(
+	function() {
+		$( this ).parent().find(".alpha").fadeTo("fast","0")
+		//$( this).find("h3").css({"opacity":"1"})
+		$( this).find(".knowmore button").css({"background-color":"#b1d8ff"})
+		},
+  	function() {
+		$( this ).parent().find(".alpha").fadeTo("fast","0.6")
+		$( this).find(".knowmore button").css({"background":"rgba(11,29,47,0.7)"})
+		}
+	)
+
+$( "#craftknowmore" ).hover(
+	function() {
+		$( this).find("button").css({"background-color":"#b1d8ff"})
+		},
+  	function() {
+		$( this).find("button").css({"background":"rgba(11,29,47,0.7)"})
+		}
+	)
+
+
+
+</script>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel=stylesheet type="text/css" href="css.css">
+<title>隆洋遊艇</title>
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type='text/javascript'>
+$(function(){
+	　$(window).load(function(){
+			$(window).bind('scroll resize', function(){
+					var $this = $(this);
+　　					var $this_Top=$this.scrollTop();	
+					if($this_Top > 750){　　$('#top-bar').fadeIn(200)}	
+					if($this_Top < 750){　　$('#top-bar').hide()}
+		    });				 
+	 })  
+});
+
+
+$( "#alpha" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
+</head>
+
+<body>
+<div class="topbg contacttopbg">
+	<div class="menubg menubg-up">
+    	<div class="menu menu-up">
+        	<ul>
+            	<li><a href="index.html">隆洋遊艇</a></li>
+                <li><a href="company.html">公司介紹</a></li>
+                <li><a href="craftindex.html">產品介紹</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="contactus.html">聯絡我們</a></li>
+            </ul>
+        
+        </div>
+    </div>
+</div>
+<div id="top-bar" class="menubg menubg-down" style="display:none; ">
+    	<div class="menu menu-down">
+        	<ul>
+            	<li><a href="index.html">隆洋遊艇</a></li>
+                <li><a href="company.html">公司介紹</a></li>
+                <li><a href="craftindex.html">產品介紹</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="contactus.html">聯絡我們</a></li>
+            </ul>
+        
+        </div>
+    </div>
+<div class="container">
+    <div class="slogan">
+        <h1>聯絡我們</h1>
+        <h2>Contact Us</h2>
+        <div>您可以透過電話+886-7-8715105、寄送e-mail至<a href="mailto:yxp@ms14.hinet.net" >yxp@ms14.hinet.net</a>聯絡我們。</br>我們的服務時間為周一至周五08:00-17:00，收到您的聯絡資訊後，我們將會盡快為您服務。</div>
+	</div>
+     <!--<form method="post" action="mailto:yxp@ms14.hinet.net"  enctype="text/plain" >
+    <div class="contactform">
+        <div class="left">
+        	 <input type="text" value="姓名" name="name" onclick="this.value=''" />
+             <input type="text" value="電話(選填)" name="phone" onclick="this.value=''" />
+             <input type="text" value="電子信箱" name="mail" onclick="this.value=''"/>
+             <input type="text" value="主旨" name="subject" onclick="this.value=''" />
+        </div>
+        <div class="right">
+        	<textarea rows="18" cols="75" name="content" onclick="this.value=''">詢問內容</textarea>
+        </div>
+        <div class="clearfix"><div class="knowmore" id="craftknowmore"><button type="submit">送出</button></div><br/><br/></div>
+    
+    </div>
+    </form>-->
+    <div class="location">
+        <h1>公司位置</h1>
+        <h2>Location</h2>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.7626778753856!2d120.35944371498158!3d22.51308564082607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e1d675f0f69ef%3A0x109cb96f51ae62a2!2z6ZqG5rSL6YGK6ImH5bel5qWt6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1462955892354" width="900" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	</div>
+
+    
+	 
+	
+  
+    
+
+</div>
+<div class="clearfix"></div>
+<div class="bottom">
+	<div class="contact">
+    	直接聯繫我們，請致電+886-7-8715107，或傳送E-Mail至yxp@ms14.hitnet.net
+    </div>
+    <div class="bottomlogo">
+    	<img src="images/bottomlogo.png"/>
+        <br/><br/><br/>
+        © Grand Harbour Yacht Inc.
+    </div>
+
+
+</div>
+
+</body>
+<script>
+$( "div.getmore-container" ).hover(
+	function() {
+		$( this ).parent().find(".alpha").fadeTo("fast","0.2")
+		//$( this).find("h3").css({"opacity":"1"})
+		$( this).find(".knowmore button").css({"background-color":"#b1d8ff"})
+		},
+  	function() {
+		$( this ).parent().find(".alpha").fadeTo("fast","0.6")
+		$( this).find(".knowmore button").css({"background":"rgba(11,29,47,0.7)"})
+		}
+	)
+
+$( "#craftknowmore" ).hover(
+	function() {
+		$( this).find("button").css({"background-color":"#b1d8ff"})
+		},
+  	function() {
+		$( this).find("button").css({"background":"rgba(11,29,47,0.7)"})
+		}
+	)
+
+
+
+</script>
+</html>
