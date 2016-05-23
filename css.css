@@ -262,7 +262,6 @@ h6{
 	height:240px;
 	float:left;
 	margin:0 4px;
-	cursor:pointer;
 	}
 
 .three div div{
@@ -470,7 +469,7 @@ h6{
 	width:49.8%;
 	height:100%;
 	margin-top:4px;
-	background-color:#fff;
+	background-color:#000;
 	cursor:pointer;
 	position:relative;
 	}
@@ -480,7 +479,7 @@ h6{
 	width:49.8%;
 	height:100%;
 	margin-top:4px;
-	background-color:#fff;
+	background-color:#000;
 	cursor:pointer;
 	position:relative;
 	}
@@ -653,50 +652,6 @@ h6{
 	background-image:url(images/craft46top.jpg);	
 	}
 	
-.craft50topbg{
-	background-image:url(images/craft50top.jpg);	
-	}
-
-.craft52topbg{
-	background-image:url(images/craft52top.jpg);	
-	}
-
-.craft53topbg{
-	background-image:url(images/craft53top.jpg);	
-	}
-
-.craft57topbg{
-	background-image:url(images/craft57top.jpg);	
-	}
-
-.craft58topbg{
-	background-image:url(images/craft58top.jpg);	
-	}
-
-.craft62topbg{
-	background-image:url(images/craft62top.jpg);	
-	}
-
-.craft67topbg{
-	background-image:url(images/craft67top.jpg);	
-	}
-
-.craft68topbg{
-	background-image:url(images/craft68top.jpg);	
-	}
-
-.craft70topbg{
-	background-image:url(images/craft70top.jpg);	
-	}
-
-.craft72topbg{
-	background-image:url(images/craft72top.jpg);	
-	}
-
-.craft76topbg{
-	background-image:url(images/craft76top.jpg);	
-	}
-	
 .enquiry{
 	margin:0 auto;
 	background-color:#145098;
@@ -704,15 +659,6 @@ h6{
 	margin-bottom:150px;
 	line-height:80px;
 	text-align:center;
-	}
-	
-.enquiry a{
-	color:#fff;
-	text-decoration:none;
-	}
-
-.enquiry a:hover{
-	color:#e4ae16;
 	}
 
 .craft-drawing{
