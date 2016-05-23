@@ -32,7 +32,7 @@ $( "#alpha" ).hover(function() {
 	<div class="menubg menubg-up">
     	<div class="menu menu-up">
         	<ul>
-            	<li><a href="index.html">隆洋遊艇</a></li>
+            	<li><a href="index.html"  style="color:#e4ae16">隆洋遊艇</a></li>
                 <li><a href="company.html">公司介紹</a></li>
                 <li><a href="craftindex.html">遊艇介紹</a></li>
                 <li><a href="news.html">最新消息</a></li>
@@ -45,7 +45,7 @@ $( "#alpha" ).hover(function() {
 <div id="top-bar" class="menubg menubg-down" style="display:none; ">
     	<div class="menu menu-down">
         	<ul>
-            	<li><a href="index.html">隆洋遊艇</a></li>
+            	<li><a href="index.html"  style="color:#e4ae16">隆洋遊艇</a></li>
                 <li><a href="company.html">公司介紹</a></li>
                 <li><a href="craftindex.html">遊艇介紹</a></li>
                 <li><a href="news.html">最新消息</a></li>
@@ -71,7 +71,7 @@ $( "#alpha" ).hover(function() {
                 	隆洋遊艇提供46到72英呎遊艇，經由客製化來滿足您的需求，隆洋遊艇提供46到72英呎遊艇，經由客製化來滿足您的需求隆洋遊艇提供46到72英呎遊艇，經由客製化來滿足您的需求
                 </div>
                 <br/>
-                <div class="knowmore" id="craftknowmore"><button onclick="location.href='ourcraft.html'"> 了解更多</button></div>
+                <div class="knowmore" id="craftknowmore"><button onclick="location.href='craftindex.html'"> 了解更多</button></div>
             </div>
         	
         </div>
@@ -93,7 +93,7 @@ $( "#alpha" ).hover(function() {
                     <div class="shortintro">
                         在遊艇設計的過程中，隆洋工程團隊將融入客戶的想法，所有的室內裝潢與布局，在基本設計的範圍內，都可按照您的願望塑造。
                     </div>
-                    <div class="knowmore"><button> 了解更多</button></div>
+                    <div class="knowmore"><button onclick="location.href='company.html'"> 了解更多</button></div>
             </div>
 	           
         </div>
@@ -108,7 +108,7 @@ $( "#alpha" ).hover(function() {
         	<div class="alpha"></div>
             <div class="getmore-container">
             	<h3>隆洋經驗</h3>
-                <div class="knowmore"><button> 了解更多</button></div>
+                <div class="knowmore"><button onclick="location.href='craftindex.html'"> 了解更多</button></div>
             </div>
         </div>
     </div>
@@ -150,7 +150,25 @@ $( "#craftknowmore" ).hover(
 		}
 	)
 
+$( "div.fb" ).click(
+	function() {
+		document.location.href="https://www.facebook.com/grandharbouryacht/?fref=ts";
+		}
+	
+	)
 
+$( "div.yachtline" ).click(
+	function() {
+		document.location.href="craftindex.html";
+		}
+	
+	)
+$( "div.download" ).click(
+	function() {
+		document.location.href="contactus.html";
+		}
+	
+	)
 
 </script>
 </html>
