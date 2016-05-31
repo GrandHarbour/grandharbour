@@ -324,17 +324,14 @@ h6{
 	}
 
 
-	
-
-
 .report{
-	height:400px;
-	width:49.8%;
+	height:100%;
+	width:49.7%;
+	float:left;
 	margin-top:4px;
 	background: #000 url(images/report.jpg) center center no-repeat;
     -moz-background-size: cover;
     background-size: cover;
-	float:left;
 	margin-right:2px;
 	position:relative;
 	}
@@ -348,13 +345,13 @@ h6{
 	}
 
 .history{
-	height:400px;
-	width:49.8%;
+	width:49.7%;
+	height:100%;
+	float:left;
 	margin-top:4px;
 	background: #000 url(images/history.jpg) center center no-repeat;
     -moz-background-size: cover;
     background-size: cover;
-	float:left;
 	margin-left:2px;
 	position:relative;
 	}
@@ -438,7 +435,15 @@ h6{
 	width:48%;
 	margin:auto;
 	}
-	
+
+#magazine{
+	margin-top:150px;
+	}
+
+#magazine img{
+	margin-top:30px;
+	}
+
 
 /*---產品列表--------------------------------------------------*/
 
@@ -646,7 +651,7 @@ h6{
     font-family:Microsoft JhengHei;
 	font-weight:bold;
 	padding:10px 0px;
-	width:50%
+	width:50%;
 	}
 	
 .craft-spec-left{
