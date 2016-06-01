@@ -17,7 +17,11 @@ $(function(){
 　　					var $this_Top=$this.scrollTop();	
 					if($this_Top > 750){　　$('#top-bar').fadeIn(200)}	
 					if($this_Top < 750){　　$('#top-bar').hide()}
-		    });				 
+		    });	
+			$("div.report").css("background-image","url(images/company_photo1.jpg)")
+			$("div.history").css("background-image","url(images/company_photo2.jpg)")
+
+
 	 })  
 });
 
@@ -26,6 +30,9 @@ $( "#alpha" ).hover(function() {
   $( this ).fadeOut( 100 );
   $( this ).fadeIn( 500 );
 });
+
+
+
 </script>
 </head>
 
@@ -65,13 +72,13 @@ $( "#alpha" ).hover(function() {
 	</div>
 	
    <div class="twophoto">
-    	<div class="leftphoto"> 
+    	<div class="report"> <!--用JS換圖的-->
         	<div class="alpha"></div>
             <div class="getmore-container">
             <div class="knowmore"><button onclick="location.href='craft68.html'"> 68'</button></div>
             </div>
         </div>
-        <di class="rightphoto"> 
+        <div class="history"> 
         	<div class="alpha"></div>
             <div class="getmore-container">
             <div class="knowmore"><button onclick="location.href='craft53.html'"> 53'</button></div>

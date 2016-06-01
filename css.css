@@ -326,7 +326,7 @@ h6{
 
 .report{
 	height:100%;
-	width:49.7%;
+	width:49.75%;
 	float:left;
 	margin-top:4px;
 	background: #000 url(images/report.jpg) center center no-repeat;
@@ -345,7 +345,7 @@ h6{
 	}
 
 .history{
-	width:49.7%;
+	width:49.75%;
 	height:100%;
 	float:left;
 	margin-top:4px;
@@ -385,35 +385,13 @@ h6{
 	margin:150px auto;
 	}
 
-.leftphoto{
-	width:49.8%;
-	height:100%;
-	background: #000 url(images/company_photo1.jpg) center center no-repeat;
-    -moz-background-size: cover;
-	background-size: cover;
-	float:left;
-	margin-right:2px;
-	position:relative;
-	}
 
-.leftphoto .knowmore{
+
+.twophoto .knowmore{
 	padding-top:22%;
 	}
 	
-.rightphoto{
-	width:49.8%;
-	height:100%;
-	background: #000 url(images/company_photo2.jpg) center center no-repeat;
-    -moz-background-size: cover;
-	background-size: cover;
-	float:left;
-	margin-left:2px;
-	position:relative;
-	}
 
-.rightphoto .knowmore{
-	padding-top:22%;
-	}
 
 
 .company-skill{
