@@ -86,8 +86,8 @@ h6{
 	width:100%;
 	/*max-width:1440px;*/
 	margin:0 auto;
-	height:750px;
-	background: #000 center top no-repeat;
+	height:50em;
+	background: #000 center center no-repeat;
     -moz-background-size: cover;
     background-size: cover;
 	position:relative;
