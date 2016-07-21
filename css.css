@@ -80,7 +80,21 @@ h6{
 	font-family:Microsoft JhengHei;
 	letter-spacing:2px;
 	}
-
+	
+.ie8{
+	color:#fff; 
+	background:#000;
+	font-family:Microsoft JhengHei;
+	height:20px;
+	text-align:center;
+	border:1px #fff solid;
+	line-height:20px;
+	padding-top:10px;
+	}
+	
+.ie8 span{
+	color:#FF0;
+	}
 
 .topbg{
 	width:100%;
