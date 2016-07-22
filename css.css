@@ -100,13 +100,18 @@ h6{
 	width:100%;
 	/*max-width:1440px;*/
 	margin:0 auto;
-	height:50em;
+	height:auto;
 	background: #000 center center no-repeat;
     -moz-background-size: cover;
     background-size: cover;
 	position:relative;
 	}
-	
+
+.topbg img{
+	width:100%; 
+	height:auto;
+}
+
 	
 .menubg{
 	
@@ -396,9 +401,6 @@ h6{
 
 /*-公司介紹------------------------------------------------*/
 
-.companytopbg{
-	background-image:url(images/company.jpg);
-	}
 
 .twophoto{
 	width:95%;
@@ -446,9 +448,7 @@ h6{
 
 /*---產品列表--------------------------------------------------*/
 
-.crafttopbg{
-	background-image:url(images/craft.jpg);	
-	}
+
 	
 .craft-list{
 	width:90%;
@@ -666,57 +666,7 @@ h6{
 	float:right;
 	}
 
-.craft46topbg{
-	background-image:url(images/craft46top.jpg);	
-	}
-	
-.craft50topbg{
-	background-image:url(images/craft50top.jpg);	
-	}
 
-.craft52topbg{
-	background-image:url(images/craft52top.jpg);	
-	}
-
-.craft53topbg{
-	background-image:url(images/craft53top.jpg);	
-	}
-
-.craft57topbg{
-	background-image:url(images/craft57top.jpg);	
-	}
-
-.craft58topbg{
-	background-image:url(images/craft58top.jpg);	
-	}
-
-.craft62topbg{
-	background-image:url(images/craft62top.jpg);	
-	}
-
-.craft67topbg{
-	background-image:url(images/craft67top.jpg);	
-	}
-
-.craft68topbg{
-	background-image:url(images/craft68top.jpg);	
-	}
-
-.craft70topbg{
-	background-image:url(images/craft70top.jpg);	
-	}
-
-.craft72topbg{
-	background-image:url(images/craft72top.jpg);	
-	}
-
-.craft76topbg{
-	background-image:url(images/craft76top.jpg);	
-	}
-
-.craft52ptopbg{
-	background-image:url(images/craft52ptop.jpg);	
-	}
 	
 .enquiry{
 	margin:0 auto;
@@ -770,9 +720,6 @@ h6{
 	
 /*最新消息--------------------------------------------*/
 
-.newstopbg{
-	background-image:url(images/news.jpg);
-	}
 
 .news1{
 	padding-top:150px;

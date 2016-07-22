@@ -9,7 +9,7 @@
 <title>隆洋遊艇</title>
 
 <script type="text/javascript" src="jquery.js"></script>
-
+<script type="text/javascript" src="jquery.cycle.js"></script>
 <script type='text/javascript'>
 $(function(){
 	　$(window).load(function(){
@@ -27,7 +27,11 @@ $( "#alpha" ).hover(function() {
   $( this ).fadeOut( 100 );
   $( this ).fadeIn( 500 );
 });
+
+
 </script>
+
+
 </head>
 
 <body>
@@ -43,9 +47,23 @@ $( "#alpha" ).hover(function() {
   ga('create', 'UA-81138016-1', 'auto');
   ga('send', 'pageview');
 
+
+
+
+
+$('.cycle-slideshow').cycle({
+    speed: 600,
+    manualSpeed: 100
+});
+
+
 </script>
 
-<div class="topbg indextopbg">
+
+<div class="cycle-slideshow topbg">
+<img src="images/craft46top.jpg"  />
+<img src="images/craft50top.jpg"  />
+<img src="images/craft68top2.jpg"  />
 	<div class="menubg menubg-up">
     	<div class="menu menu-up">
         	<ul>
@@ -149,6 +167,11 @@ $( "#alpha" ).hover(function() {
 
 </body>
 <script>
+
+
+
+
+
 $( "div.getmore-container" ).hover(
 	function() {
 		$( this ).parent().find(".alpha").fadeTo("fast","0.2")
