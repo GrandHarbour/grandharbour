@@ -191,7 +191,7 @@ h6{
 
 .container{
 	width:100%;
-	max-width:1440px;
+	/*max-width:1440px;*/
 	padding-top:90px;
 	margin:0 auto;
 	}
@@ -217,10 +217,6 @@ h6{
 	
 /*-首頁-------------------------------------------------*/
 
-.indextopbg{
-	background-image:url(images/indeximg.jpg);
-	}
-
 
 .ourcraft{
 	padding-top:150px;
@@ -229,11 +225,12 @@ h6{
 	}
 	
 .ourcraft-img{
-	margin-top:90px;
 	background: #000 url(images/ourcraft.jpg) center center no-repeat;
     -moz-background-size: cover;
     background-size: cover;
-	height:813px;
+	width:100%;
+	height:auto;
+	margin:90px auto 0px;
 	/*position:relative;*/
 	}
 	
@@ -242,7 +239,9 @@ h6{
 	top:240%;
 	right:5%;*/
 	width:25%;
-	padding:31% 1% 1% 70%;
+	padding:25% 1% 5% 70%;
+	
+	
 	
 	}
 
@@ -278,19 +277,20 @@ h6{
 	}
 
 .three{
-	width:95%;
+	width:90%;
 	height:240px;
 	margin:150px auto;
 	
 	}
 
 .three div{
-	width:32%;
+	width:33%;
 	height:240px;
 	float:left;
-	margin:0 4px;
 	cursor:pointer;
 	}
+	
+	
 
 .three div div{
 	width:99%;
@@ -305,14 +305,16 @@ h6{
 
 .yachtline{
 	background-color:#a02d64;
+	margin-left:4px;
 	}
 
 .download{
 	background-color:#e4ae16;
+	margin-left:4px;
 	}
 
 .getmore{
-	width:95%;
+	width:90%;
 	text-align:center;
 	margin:0 auto;
 	}
